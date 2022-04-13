@@ -8,7 +8,7 @@ const userGrid = document.getElementById('userGrid');
         <img src='/api/v1/userImages/${imgs[0]}' />
         <h1>${name}</h1>
         <form action='/api/v1/userDelete/${name}' method='post'>
-            <button type = "submit"><h2></h2></button>
+            <button type = "submit"><h2>Delete</h2></button>
         </form>
         <div/>`;
     })
